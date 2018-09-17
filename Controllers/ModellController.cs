@@ -19,14 +19,18 @@ namespace template.Controllers
 		public IActionResult GetAllModels([FromQuery] int pageNumber = 1, int pageSize = 10)
 		{
 			string header = Request.Headers["Accept-Language"];
-			Console.WriteLine(header);
+			header = (header == null || header != "de-DE") ? "en-US" : header;
 
+			// if (header == null)
+			// {
+			// 	header = "en-US";
+			// }
 			Envelope<ModelDTO> envelope = new Envelope<ModelDTO>();
 			envelope.PageNumber = pageNumber;
 			envelope.PageSize = pageSize;
 			List<ModelDTO> temp = new List<ModelDTO>();
 
-			DataContext.Models.ToLightWeight().ForEach(m =>
+			DataContext.Models.ToLightWeight(header).ForEach(m =>
 			{
 				m.Links.AddReference("self", $"http://localhost:5000/api/models/{m.Id}");
 				temp.Add(m);
@@ -42,7 +46,8 @@ namespace template.Controllers
 		[Route("{id:int}")]
 		public IActionResult GetModelById(int id)
 		{
-			ModelDetailsDTO model = DataContext.Models.ToDetails().FirstOrDefault(m => m.Id == id);
+			string header = Request.Headers["Accept-Language"];
+			ModelDetailsDTO model = DataContext.Models.ToDetails(header).FirstOrDefault(m => m.Id == id);
 			model.Links.AddReference("self", $"http://localhost:5000/api/models/{id}");
 			return Ok(model);
 		}
