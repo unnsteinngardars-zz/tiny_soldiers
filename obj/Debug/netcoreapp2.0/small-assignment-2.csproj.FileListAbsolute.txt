@@ -1,0 +1,11 @@
+/Users/unnsteinngardarsson/Dropbox/03_HR/Fifth_semester/VEFT/Assignments/Small/assignment02/template/bin/Debug/netcoreapp2.0/small-assignment-2.deps.json
+/Users/unnsteinngardarsson/Dropbox/03_HR/Fifth_semester/VEFT/Assignments/Small/assignment02/template/bin/Debug/netcoreapp2.0/small-assignment-2.runtimeconfig.json
+/Users/unnsteinngardarsson/Dropbox/03_HR/Fifth_semester/VEFT/Assignments/Small/assignment02/template/bin/Debug/netcoreapp2.0/small-assignment-2.runtimeconfig.dev.json
+/Users/unnsteinngardarsson/Dropbox/03_HR/Fifth_semester/VEFT/Assignments/Small/assignment02/template/bin/Debug/netcoreapp2.0/small-assignment-2.dll
+/Users/unnsteinngardarsson/Dropbox/03_HR/Fifth_semester/VEFT/Assignments/Small/assignment02/template/bin/Debug/netcoreapp2.0/small-assignment-2.pdb
+/Users/unnsteinngardarsson/Dropbox/03_HR/Fifth_semester/VEFT/Assignments/Small/assignment02/template/obj/Debug/netcoreapp2.0/small-assignment-2.csprojAssemblyReference.cache
+/Users/unnsteinngardarsson/Dropbox/03_HR/Fifth_semester/VEFT/Assignments/Small/assignment02/template/obj/Debug/netcoreapp2.0/small-assignment-2.csproj.CoreCompileInputs.cache
+/Users/unnsteinngardarsson/Dropbox/03_HR/Fifth_semester/VEFT/Assignments/Small/assignment02/template/obj/Debug/netcoreapp2.0/small-assignment-2.AssemblyInfoInputs.cache
+/Users/unnsteinngardarsson/Dropbox/03_HR/Fifth_semester/VEFT/Assignments/Small/assignment02/template/obj/Debug/netcoreapp2.0/small-assignment-2.AssemblyInfo.cs
+/Users/unnsteinngardarsson/Dropbox/03_HR/Fifth_semester/VEFT/Assignments/Small/assignment02/template/obj/Debug/netcoreapp2.0/small-assignment-2.dll
+/Users/unnsteinngardarsson/Dropbox/03_HR/Fifth_semester/VEFT/Assignments/Small/assignment02/template/obj/Debug/netcoreapp2.0/small-assignment-2.pdb
